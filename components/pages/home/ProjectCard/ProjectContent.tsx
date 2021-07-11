@@ -44,7 +44,7 @@ export const Projects = [
         work on. Our team is tasked to kick start the project and implement the
         core features needed. The team and I use the python Django framework to
         make the website because of the company hardware limitations. I
-        personally oversee and direct my team's work from the requirements
+        personally oversee and direct my teams work from the requirements
         provided by the client. The project lasted up to about 4 months in
         total, starting from designing to finishing the core product.
         <br />

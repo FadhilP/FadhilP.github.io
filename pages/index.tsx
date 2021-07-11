@@ -8,10 +8,10 @@ export default function Home() {
   return (
     <Fragment>
       <div className="m-12 mx-48 select-none">
-        <Header>Projects that I've worked on</Header>
+        <Header>Projects that &apos; worked on</Header>
         <div className="flex flex-wrap mt-8 justify-center">
           {Projects.map((project) => (
-            <ProjectCard {...project} />
+            <ProjectCard key={project.name} {...project} />
           ))}
         </div>
         <div className="text-center tracking-widest mt-12">
@@ -19,7 +19,7 @@ export default function Home() {
         </div>
         <div className="flex flex-wrap mt-8 justify-center">
           {PersonalProjects.map((project) => (
-            <ProjectCard {...project} />
+            <ProjectCard key={project.name} {...project} />
           ))}
         </div>
       </div>

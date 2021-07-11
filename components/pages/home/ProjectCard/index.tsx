@@ -65,7 +65,7 @@ export default function ProjectCard(props: ProjectCardProp) {
                     <p className="text-sm text-gray-500">{description}</p>
                   </div>
                   <div>
-                    <img src={image} />
+                    <img src={image} alt={image}/>
                   </div>
                 </div>
               </div>
