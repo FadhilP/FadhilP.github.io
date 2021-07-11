@@ -35,6 +35,7 @@ export default function Home() {
             href="https://github.com/FadhilP/FadhilP.github.io"
             className="text-blue-500"
             target="_blank"
+            rel="noreferrer"
           >
             Click here
           </a>
