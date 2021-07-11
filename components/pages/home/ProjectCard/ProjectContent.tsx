@@ -70,6 +70,42 @@ export const Projects = [
     ),
     image: "/images/riliv.png",
   },
+  {
+    name: "LINE Balgebun Bot",
+    description: (
+      <Fragment>
+        Balgebun Bot is a bot which connects the seller at the balgebun
+        cafeteria at the Faculty of Computer Science, Universitas Indonesia to
+        its customer
+        <br />
+        <br />
+        Tech stack: Spring boot
+      </Fragment>
+    ),
+    image: "/images/balgebunbot.png",
+  },
+  {
+    name: "Memento",
+    description: (
+      <Fragment>
+        Memento is a scheduling application in which you can make a
+        schedule/reminder and a system will send you a notification at the given
+        time (The notification is sent through LINE with an authentication
+        system.). Users are given a calendar to fill with their schedules.
+        Friend and group systems are also a key feature in Memento, users can
+        add friends and see their own schedule. Privacy setting is also an
+        option if a user does not wish to show his/her schedule to the public.
+        Users can also write comments on schedules that their friends make.
+        <br/>
+        Memento is implemented in the 2 weeks using the python Django framework,
+        LINE Messaging API, and Heroku cron job.
+        <br />
+        <br />
+        Tech stack: Django
+      </Fragment>
+    ),
+    image: "/images/memento.png",
+  },
 ];
 
 export const PersonalProjects = [
@@ -126,6 +162,22 @@ export const PersonalProjects = [
         Tech stack: Django
       </Fragment>
     ),
-		image: "/images/personalized.png",
+    image: "/images/personalized.png",
+  },
+  {
+    name: "Discord Goodnight Bot",
+    description: (
+      <Fragment>
+        Goodnight bot is a Discord bot and another small project that I made for
+        fun. It’s purpose is to send messages before going to bed. Every message
+        links to a personalized website. There are 2 types of messages, game and
+        animation. Users need to complete the game in order to get the actual
+        goodnight message.
+        <br />
+        <br />
+        Tech stack: Node.js
+      </Fragment>
+    ),
+    image: "/images/goodnightbot.png",
   },
 ];
