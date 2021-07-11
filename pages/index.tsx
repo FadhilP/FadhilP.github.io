@@ -22,7 +22,7 @@ export default function Home() {
           ))}
         </div>
         <div className="text-center tracking-widest mt-12">
-          <Header delay={0.5}> Projects</Header>
+          <Header delay={0.5}> Personal Projects</Header>
         </div>
         <div className="flex flex-wrap mt-8 justify-center">
           {PersonalProjects.map((project) => (
