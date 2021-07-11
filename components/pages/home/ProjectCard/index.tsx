@@ -54,7 +54,7 @@ export default function ProjectCard(props: ProjectCardProp) {
           >
             <div
               ref={modal}
-              className="bg-white px-4 pt-5 pb-4 sm:p-6 sm:pb-4 mx-8 w-1/2 rounded"
+              className="bg-white px-4 pt-5 pb-4 sm:p-6 sm:pb-4 sm:mx-8 w-1/2 rounded"
             >
               <div className="sm:flex sm:items-start">
                 <div className="mt-3 text-center sm:mt-0 sm:ml-4 sm:text-left">
