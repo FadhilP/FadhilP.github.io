@@ -3,8 +3,8 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "next dev",
-    "build": "next build",
+    "dev": "next dev && TAILWIND_MODE=watch postcss -i tailwind.css -o build.css --watch",
+    "build": "next build && postcss -i tailwind.css -o build.css",
     "export": "next export",
     "start": "next start",
     "lint": "next lint"
@@ -16,8 +16,11 @@
   },
   "devDependencies": {
     "@types/react": "17.0.14",
+    "autoprefixer": "^10.3.0",
     "eslint": "7.30.0",
     "eslint-config-next": "11.0.1",
+    "postcss": "^8.3.5",
+    "tailwindcss": "^2.2.4",
     "typescript": "4.3.5"
   }
 }
