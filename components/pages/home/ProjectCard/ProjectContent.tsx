@@ -1,5 +1,4 @@
 import { Fragment } from "react";
-import PilarImage from "@/images/pilar.png";
 
 export const Projects = [
   {
@@ -7,7 +6,9 @@ export const Projects = [
     description: (
       <Fragment>
         PILAR Industry is an e-commerce application that accomodates products
-        and donations for programs that are held by PILAR Jakarta
+        and donations for programs that are held by PILAR Jakarta. My task was
+        to fix and add features in the admin dashboard side of PILAR which uses
+        React.js
         <br />
         <br />
         Tech stack: React.js, Django, Flutter, Docker
@@ -58,7 +59,8 @@ export const Projects = [
     name: "Riliv",
     description: (
       <Fragment>
-        Riliv is a platform for meditation and counseling
+        Riliv is a platform for meditation and counseling. I personally worked
+        on the frontend authentication and payment system of the landing page.
         <br />
         <a href="https://riliv.co" className="text-blue-500">
           Link
@@ -96,7 +98,7 @@ export const Projects = [
         add friends and see their own schedule. Privacy setting is also an
         option if a user does not wish to show his/her schedule to the public.
         Users can also write comments on schedules that their friends make.
-        <br/>
+        <br />
         Memento is implemented in the 2 weeks using the python Django framework,
         LINE Messaging API, and Heroku cron job.
         <br />
