@@ -39,6 +39,8 @@ export default function Home() {
           >
             Click here
           </a>
+          <br/>
+          Contact: fadhilpradipta0@gmail.com
         </div>
       </div>
     </Fragment>
