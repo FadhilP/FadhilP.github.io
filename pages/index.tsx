@@ -14,7 +14,7 @@ export default function Home() {
       <Head>
         <title>FadhilP Portfolio</title>
       </Head>
-      <div className="sm:m-12 mx-2 sm:mx-48 select-none">
+      <div className="sm:m-12 mx-2 sm:mx-36 select-none">
         <Header>Projects that I&apos;ve worked on</Header>
         <div className="flex flex-wrap mt-8 justify-center">
           {Projects.map((project) => (

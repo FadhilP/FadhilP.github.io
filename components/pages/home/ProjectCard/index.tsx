@@ -33,11 +33,11 @@ export default function ProjectCard(props: ProjectCardProp) {
         // }}
       >
         <motion.div
-          className="w-96 h-48 flex flex-grow items-center justify-center shadow-md cursor-pointer bg-gray-300  rounded"
+          className="w-48 sm:w-96 h-48 flex flex-grow items-center justify-center shadow-md cursor-pointer bg-gray-300 rounded"
           whileHover={{ scale: 1.05 }}
           whileTap={{ scale: 1.1 }}
         >
-          <h2 className="text-2xl tracking-widest text-white">
+          <h2 className="text-2xl tracking-widest text-white text-center px-4">
             {name.toUpperCase()}
           </h2>
         </motion.div>
